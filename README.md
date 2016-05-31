@@ -1,2 +1,2 @@
-# Hooke-s_law
+# Hooke's_law
 Processing 3.1
