@@ -33,7 +33,7 @@ void draw() {
   float f = (ns - ey) * d; 
   
   float acc = f / m;
-  s = s + acc + g;
+  s = (s + acc + g) * 0.99;
   ey = ey + s;
   
   line(ex, 0, ex, ey);
